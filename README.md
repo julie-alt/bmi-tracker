@@ -1,4 +1,4 @@
-# BMI Calculator 🧮
+# BMI Tracker 
 
 A modern, responsive BMI (Body Mass Index) Calculator built with React. This app allows users to calculate their BMI using either metric or imperial units, track their BMI history for 7 days, and view their health category based on WHO standards.
 
