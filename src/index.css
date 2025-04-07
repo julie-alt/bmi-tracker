@@ -1,0 +1,29 @@
+:root {
+  --primary: #df2935;
+  --background-light: #fef9d8;
+  --background-dark: #030303;
+  --text-light: #43100d;
+  --text-dark: #f2f3ae;
+  --accent: #499f68;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="light"] {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
