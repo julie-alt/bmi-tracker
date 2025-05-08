@@ -1,0 +1,65 @@
+.bmi-info-box {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bmi-info-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.bmi-info-box th,
+.bmi-info-box td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.bmi-info-header-box {
+  background-color: #0da376;
+  color: #43100d;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+bmi-info-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #43100d;
+  margin-bottom: 15px;
+  flex: 1 1 300px;
+}
+
+.bmi-formula {
+  background-color: #f1fdf9;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bmi-info-img {
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  flex-shrink: 0;
+}
+.bmi_img {
+  width: 400px;
+}
+@media (max-width: 768px) {
+  .bmi-info-header-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bmi-info-img {
+    display: none;
+  }
+}

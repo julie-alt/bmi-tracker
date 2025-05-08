@@ -13,32 +13,13 @@
   font-weight: bold;
 }
 
-.underweight {
-  background-color: #f4a261;
-  color: white;
-}
-
-.normal {
-  background-color: #2a9d8f;
-  color: white;
-}
-
-.overweight {
-  background-color: #e9c46a;
-  color: white;
-}
-
-.obese {
-  background-color: #e76f51;
-  color: white;
-}
-
 .clear-history-btn {
   margin-bottom: 10px;
   padding: 8px 15px;
   font-size: 1rem;
-  background-color: #df2935;
+  background-color: #e34242;
   color: white;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   cursor: pointer;

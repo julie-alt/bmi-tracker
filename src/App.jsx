@@ -1,10 +1,10 @@
 import React from "react";
 import BMIResult from "./components/BMIResult.jsx";
 import BMIForm from "./components/BMIForm.jsx";
-import BMITimeline from "./components/BMITimeline";
 import { ThemeProvider } from "./components/ThemeContext.jsx";
 import bmiImg from "./assets/bmi-img2.png";
 import bmiLogo from "./assets/bmi-logo2.png";
+import BMIInfo from "./components/BMIInfo.jsx";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <ThemeProvider>
         <div>
           <img className="logo" src={bmiLogo} alt="BMI logo" />
+          <BMIInfo/>
           <h1 className="title">Calculate Your BMI</h1>
           <div className="bmi-container">
             <BMIForm />

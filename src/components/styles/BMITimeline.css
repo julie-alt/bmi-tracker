@@ -29,22 +29,3 @@
   background-color: white;
 }
 
-.underweight {
-  background-color: #f4a261;
-  color: white;
-}
-
-.normal {
-  background-color: #2a9d8f;
-  color: white;
-}
-
-.overweight {
-  background-color: #e9c46a;
-  color: white;
-}
-
-.obese {
-  background-color: #e76f51;
-  color: white;
-}
